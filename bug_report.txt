@@ -1,1 +1,16 @@
+ID: 1234
+Summary: Button not working on checkout page
+Environment:
 
+	Browser: Google Chrome
+	Version: 111.0.5563.147
+	Operating System: Windows 11 64-bit
+Steps to reproduce:
+	1. Go to checkout page
+	2. Click on 'Complete Order' button
+	3. Nothing happens
+Expected result: The order should be processed and a confirmation page should appear
+Actual result: Nothing happens when the button is clicked
+Attachments:
+	Type: Screenshot
+	URL: https://example.com/screenshot.png
