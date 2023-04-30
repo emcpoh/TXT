@@ -1,0 +1,84 @@
+TXT
+ 1. Создать внешний репозиторий c названием TXT. /// https://github.com/emcpoh?tab=repositories -> New -> TXT
+ 2. Клонировать репозиторий TXT на локальный компьютер. /// git clone https://github.com/emcpoh/TXT
+ 3. Внутри локального TXT создать файл “new.txt”. 
+
+/// 
+cd TXT/
+touch new.txt
+
+ 4. Добавить файл под гит. /// git add .
+ 5. Закоммитить файл. /// git commit -m "new.txt was added"
+ 6. Отправить файл на внешний GitHub репозиторий. /// git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+
+///
+cat > new.txt
+About me:
+        My full name - Sergei Kaplienko
+        My age - 23 years
+        The quantity of my pets is 5. They're all cats.
+        My future desired salary - 75000 RUB per month.
+
+ 8. Отправить изменения на внешний репозиторий. 
+
+/// 
+git commit -a -m "added info about me in new.txt"
+git push
+
+ 9. Создать файл preferences.txt /// touch preferences.txt
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+///
+cat > preferences.txt
+My preferences:
+        My favorite movie - Seven, by David Fincher.
+        My favourite TV series - Big Bang Theory.
+        My favorite food - Lahmacun.
+        My favorite season - Summer.
+        Country I'd like to visit is USA.
+
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+
+ ///
+cat > skills.txt
+My skills:
+        My 1st skill - Terminal Linux.
+        My 2nd skill - SQL.
+        My 3rd skill - Git.
+        My 4th skill - Postman.
+        My 5th skill - Client-server architecture.
+        My 6th skill - Mobile testing.
+
+
+ 12. Сделать коммит в одну строку. /// 
+git add .
+git commit -m "preferences.txt and skills.txt was added"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий. /// git push
+ 14. На веб интерфейсе создать файл bug_report.txt. /// https://github.com/emcpoh/TXT -> Create new file -> bug_report.txt
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 14 -> Commit new file
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT. 
+
+/// 
+
+https://github.com/emcpoh/TXT/blob/main/bug_report.txt -> Edit this file
+ID: 1234
+Summary: Button not working on checkout page
+Environment:
+
+	Browser: Google Chrome
+	Version: 111.0.5563.147
+	Operating System: Windows 11 64-bit
+Steps to reproduce:
+	1. Go to checkout page
+	2. Click on 'Complete Order' button
+	3. Nothing happens
+Expected result: The order should be processed and a confirmation page should appear
+Actual result: Nothing happens when the button is clicked
+Attachments:
+	Type: Screenshot
+	URL: https://example.com/screenshot.png
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 16 -> Commit changes
+ 18. Синхронизировать внешний и локальный репозиторий TXT /// git pull
