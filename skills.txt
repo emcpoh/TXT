@@ -1,0 +1,7 @@
+My skills:
+	My 1st skill - Terminal Linux.
+	My 2nd skill - SQL.
+	My 3rd skill - Git.
+	My 4th skill - Postman.
+	My 5th skill - Client-server architecture.
+	My 6th skill - Mobile testing.
