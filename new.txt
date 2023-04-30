@@ -1,0 +1,5 @@
+About me:
+	My full name - Sergei Kaplienko
+	My age - 23 years
+	The quantity of my pets is 5. They're all cats.
+	My future desired salary - 75000 RUB per month.
